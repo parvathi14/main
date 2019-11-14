@@ -1,6 +1,5 @@
 /**
  * Manages several GUI related functions such as loading fxml, get root classes etc.
- *
  * Some design has been referenced from Address Book (Level 3).
  * https://github.com/se-edu/addressbook-level3
  */
@@ -12,11 +11,12 @@ import cube.CubeApp;
 import cube.util.LogUtil;
 import cube.util.exception.CubeUtilException;
 import cube.util.exception.UtilErrorMessage;
+
 import javafx.fxml.FXMLLoader;
 
-import java.io.IOException;
-import java.net.URL;
 import java.util.logging.Logger;
+import java.net.URL;
+import java.io.IOException;
 
 public abstract class UiManager<T> {
 

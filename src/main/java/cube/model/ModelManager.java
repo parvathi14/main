@@ -3,7 +3,7 @@
  *
  * @author tygq13
  */
-
+//@@author tygq13
 package cube.model;
 
 import cube.model.food.FoodList;
@@ -69,6 +69,13 @@ public class ModelManager {
 	 */
 	public static SalesHistory getSalesHistory() {
 		return salesHistory;
+	}
+
+	/**
+	 * Sets the sales history.
+	 */
+	public static void setSalesHistory(SalesHistory salesHistoryToSet) {
+		salesHistory = salesHistoryToSet;
 	}
 
 	/**
